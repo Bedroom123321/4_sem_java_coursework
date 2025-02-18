@@ -8,7 +8,6 @@ public class TransportLogisticsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TransportLogisticsApplication.class, args);
-		System.out.println("Hellow World");
 	}
 
 }
