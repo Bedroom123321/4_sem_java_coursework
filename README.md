@@ -17,10 +17,13 @@
 -Таблица Клиентов
 -Таблица Заказов 
 
-#Технологии
+##Технологии
 1.Java 17
+
 2.Spring boot
+
 3.PostgreSQL
+
 4.Docker
 
 Сонар: https://sonarcloud.io/project/overview?id=Bedroom123321_4_sem_java_coursework
