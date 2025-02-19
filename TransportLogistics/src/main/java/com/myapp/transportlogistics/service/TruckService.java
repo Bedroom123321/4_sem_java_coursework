@@ -2,6 +2,8 @@ package com.myapp.transportlogistics.service;
 
 import com.myapp.transportlogistics.repository.Truck;
 import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 
@@ -10,12 +12,12 @@ public class TruckService {
     private final ArrayList<Truck> trucks = new ArrayList<>();
 
     public TruckService() {
-        trucks.add(new Truck(1, "AB 1234-7", 15000, 35));
-        trucks.add(new Truck(2, "AB 9872-5", 4000, 15));
-        trucks.add(new Truck(3, "AB 1111-0", 9000, 26));
+        trucks.add(new Truck(1, 15000, 35));
+        trucks.add(new Truck(2, 4000, 15));
+        trucks.add(new Truck(3, 9000, 26));
     }
 
-    public ArrayList<Truck> getTrucks(int liftingCapacity, int cargoVolume) {
+    public List<Truck> getTrucks(int liftingCapacity, int cargoVolume) {
         ArrayList<Truck> filteredTrucks = new ArrayList<>();
 
         for (Truck truck : trucks) {
