@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-
 @Service
 public class TruckService {
     private final ArrayList<Truck> trucks = new ArrayList<>();

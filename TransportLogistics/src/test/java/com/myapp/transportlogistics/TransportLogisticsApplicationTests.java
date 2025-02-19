@@ -8,6 +8,7 @@ class TransportLogisticsApplicationTests {
 
 	@Test
 	void contextLoads() {
+		//тесты в пятой лабе
 	}
 
 }
