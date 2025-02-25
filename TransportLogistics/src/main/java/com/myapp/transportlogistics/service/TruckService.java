@@ -1,9 +1,8 @@
 package com.myapp.transportlogistics.service;
 
-import com.myapp.transportlogistics.repository.Truck;
+import com.myapp.transportlogistics.models.Truck;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Service;
 
 @Service

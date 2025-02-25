@@ -1,4 +1,4 @@
-package com.myapp.transportlogistics.repository;
+package com.myapp.transportlogistics.models;
 
 public class Truck {
     private int id;
@@ -10,7 +10,6 @@ public class Truck {
         this.cargoVolume = cargoVolume;
         this.liftingCapacity = liftingCapacity;
     }
-
 
     public int getId() {
         return id;
