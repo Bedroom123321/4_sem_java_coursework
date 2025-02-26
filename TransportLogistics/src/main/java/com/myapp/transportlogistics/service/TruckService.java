@@ -31,7 +31,7 @@ public class TruckService {
         }
     }
 
-    public Truck getTruck(int id) {
+    public Truck getByCargo(int id) {
         for (Truck truck : trucks) {
             if (truck.getId() == id) {
                 return truck;

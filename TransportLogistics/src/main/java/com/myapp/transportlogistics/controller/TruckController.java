@@ -26,8 +26,7 @@ public class TruckController {
     }
 
     @GetMapping("{id}")
-    public Truck getTruck(@PathVariable int id) {
-        return truckService.getTruck(id);
+    public Truck getByCargo(@PathVariable int id) {
+        return truckService.getByCargo(id);
     }
-
 }
